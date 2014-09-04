@@ -1,2 +1,24 @@
 Put static app on heroku:
 http://stackoverflow.com/questions/10551273/is-it-possible-to-upload-a-simple-html-and-javascript-file-structure-to-heroku
+
+
+git init
+git add .
+git commit -m...
+
+on github.com, create new repo without README
+
+git remote add origin https://github.com/pgarber/RB_Design1.git
+git remote -v
+git push origin master
+
+heroku apps:create rbdesign1
+
+$git remote -v
+heroku	git@heroku.com:rbdesign1.git (fetch)
+heroku	git@heroku.com:rbdesign1.git (push)
+origin	https://github.com/pgarber/RB_Design1.git (fetch)
+origin	https://github.com/pgarber/RB_Design1.git (push)
+
+git push heroku master
+    http://rbdesign1.herokuapp.com
